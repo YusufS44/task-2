@@ -1,3 +1,8 @@
+variable credentials {
+  description = "The path to the service account key file"
+  default = "C:/tf-workspace/plan-9-fos/gcp-class-417400-9aae2903fb6d.json"
+}
+
 variable "project_id" {
   description = "The project ID to deploy into"
   default = "gcp-class-417400"
